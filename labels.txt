@@ -1,0 +1,86 @@
+Astrocytes 1
+Astrocytes 2
+CSF-cN
+Endothelial
+Ependymal
+Excit-01
+Excit-02
+Excit-03
+Excit-04
+Excit-05
+Excit-06
+Excit-07
+Excit-08
+Excit-09
+Excit-10
+Excit-11
+Excit-12
+Excit-13
+Excit-14
+Excit-15
+Excit-16
+Excit-17
+Excit-18
+Excit-19
+Excit-20
+Excit-21
+Excit-22
+Excit-23
+Excit-24
+Excit-25
+Excit-26
+Excit-27
+Excit-28
+Excit-29
+Excit-30
+Excit-31
+Excit-32
+Excit-33
+Excit-34
+Excit-35
+Excit-36
+Excit-37
+Excit-38
+Garbage
+Inhib-01
+Inhib-02
+Inhib-03
+Inhib-04
+Inhib-05
+Inhib-06
+Inhib-07
+Inhib-08
+Inhib-09
+Inhib-10
+Inhib-11
+Inhib-12
+Inhib-13
+Inhib-14
+Inhib-15
+Inhib-16
+Inhib-17
+Inhib-18
+Inhib-19
+Inhib-20
+Inhib-21
+Inhib-22
+Inhib-23
+Inhib-24
+Inhib-25
+Inhib-26
+Inhib-27
+Junk
+MN-alpha
+MN-gamma
+Meninges 1
+Meninges 2
+Microglia
+OPC
+Oligo Progen 1
+Oligo Progen 2
+Oligos 1
+Oligos 2
+PGC
+Pericytes
+Peripheral Glia/BC Derivative
+Schwann
