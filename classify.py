@@ -3,7 +3,7 @@ import torch.nn as nn
 import numpy as np
 print("Classify libraries loaded")
 
-class classify:
+class Classify:
     def __init__(self):
         # gpu not needed, runs fast on cpu for inference
         self.device="cpu"
