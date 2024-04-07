@@ -4,8 +4,11 @@ from itertools import chain
 
 class Utils:
     def loadMarkers():
-        with open('markers.pkl', 'rb') as f:
+        with open('resources/markers.pkl', 'rb') as f:
             markers = pickle.load(f)
+            uniqueMarkers = {}
+            for i in markers.keys():
+                uniqueMarkers[i] = [[],[]]
 
             markerCountsWC = defaultdict(int)
             markerCountsAU = defaultdict(int)
@@ -20,6 +23,7 @@ class Utils:
             for i in allMarks:
                 for x in range(len(markers[i][0])):
                     if ":" not in markers[i][0][x]:
+
                         markers[i][0][x] = markers[i][0][x] + ":" + str(markerCountsWC[markers[i][0][x]])
                 for x in range(len(markers[i][1])):
                     if ":" not in markers[i][1][x]:

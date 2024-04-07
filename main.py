@@ -15,7 +15,7 @@ class CSVViewerApp:
 
         self.file_path = None
 
-        self.label = tk.Label(self.master, text="CSV Viewer", font=("Arial", 18))
+        self.label = tk.Label(self.master, text="1: Choose a csv file with expression data.", font=("Arial", 18))
         self.label.pack(pady=10)
 
         self.table = ttk.Treeview(self.master)
@@ -47,6 +47,7 @@ class CSVViewerApp:
             self.file_path = file_path
             self.display_csv()
             self.show_hidden_button()
+        self.label.config(text="2: Confirm data, and press analyze.")
 
     def display_csv(self):
         # Read CSV file into pandas DataFrame
@@ -105,12 +106,12 @@ class CSVViewerApp:
             row_values = tuple(row)
             self.table.insert("", "end", values=row_values)
 
-        self.table.config(wrap="word")
+        self.label.config(text='3: Results\nDisplayed as "Marker:Unique" score, with unique score representing the number of classes it is a part of.', font=("Arial", 12))
 
 
 def main():
     root = tk.Tk()
-    root.tk.call('source', 'forest-light.tcl')
+    root.tk.call('source', 'resources/forest-light.tcl')
     ttk.Style().theme_use('forest-light')
     app = CSVViewerApp(root)
     root.mainloop()
