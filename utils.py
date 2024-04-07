@@ -15,13 +15,9 @@ class Utils:
             markerCountsWC = defaultdict(int)
             markerCountsAU = defaultdict(int)
             allMarks = list(chain(markers))
-            print(markers)
             for i in allMarks:
-                print(i)
                 for x in markers[i][0]:
                     markerCountsWC[x] += 1
-                    if markerCountsWC[x] == "Tnc":
-                        print("tnc")
 
                 for x in markers[i][1]:
                     markerCountsAU[x] += 1
@@ -35,7 +31,6 @@ class Utils:
                         markers[i][1][x] = markers[i][1][x] + ":" + str(markerCountsAU[markers[i][1][x]])
                 markers[i][0].sort(key=lambda s: int(s.split(":")[1]))
                 markers[i][1].sort(key=lambda s: int(s.split(":")[1]))
-        print(markers.keys())
 
         return markers
     

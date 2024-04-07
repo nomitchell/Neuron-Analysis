@@ -22,7 +22,6 @@ class Classify:
         x = x.astype(np.float32)
 
         for i in x:
-            #i = i.astype(np.float32)
             i = np.array([i])
         
             output = self.session.run([self.output_name], {self.input_name: i})[0]

@@ -60,7 +60,6 @@ class CSVViewerApp:
         self.button.pack_forget()
 
     def display_mtx(self):
-        print(1)
         cell_path = filedialog.askopenfilename(filetypes=[("Cell CSV files", "*.csv")])
         if cell_path:
             self.cell_path = cell_path
