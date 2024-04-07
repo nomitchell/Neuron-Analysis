@@ -27,14 +27,10 @@ class Classify:
         
             output = self.session.run([self.output_name], {self.input_name: i})[0]
 
-        
-
             output = [np.round(self.softmax(i), 4) for i in output]
-            output_index = [np.where(i == 1)[0] for i in output]
+            output_index = [np.where(i == 1)[0] if np.any(i == 1) else 71 for i in output]
 
-            print(output_index)
             label_outputs = [self.labels[int(i)] for i in output_index]
             final.append(label_outputs[0])
 
-        print(final)
         return final

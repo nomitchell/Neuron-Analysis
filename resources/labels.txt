@@ -1,17 +1,17 @@
-Astrocytes 1
-Astrocytes 2
+Astrocytes-1
+Astrocytes-2
 CSF-cN
 Endothelial
 Ependymal
-Excit-01
-Excit-02
-Excit-03
-Excit-04
-Excit-05
-Excit-06
-Excit-07
-Excit-08
-Excit-09
+Excit-1
+Excit-2
+Excit-3
+Excit-4
+Excit-5
+Excit-6
+Excit-7
+Excit-8
+Excit-9
 Excit-10
 Excit-11
 Excit-12
@@ -42,15 +42,15 @@ Excit-36
 Excit-37
 Excit-38
 Garbage
-Inhib-01
-Inhib-02
-Inhib-03
-Inhib-04
-Inhib-05
-Inhib-06
-Inhib-07
-Inhib-08
-Inhib-09
+Inhib-1
+Inhib-2
+Inhib-3
+Inhib-4
+Inhib-5
+Inhib-6
+Inhib-7
+Inhib-8
+Inhib-9
 Inhib-10
 Inhib-11
 Inhib-12
@@ -72,14 +72,14 @@ Inhib-27
 Junk
 MN-alpha
 MN-gamma
-Meninges 1
-Meninges 2
+Meninges-1
+Meninges-2
 Microglia
 OPC
-Oligo Progen 1
-Oligo Progen 2
-Oligos 1
-Oligos 2
+Oligo%20Progen-1
+Oligo%20Progen-2
+Oligos-1
+Oligos-2
 PGC
 Pericytes
 Peripheral Glia/BC Derivative
